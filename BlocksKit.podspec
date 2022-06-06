@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name                  = 'BlocksKit'
-  s.version               = '2.2.6'
+  s.version               = '2.2.7'
   s.license               = 'MIT'
   s.summary               = 'The Objective-C block utilities you always wish you had.'
-  s.homepage              = 'https://github.com/LDXu/BlocksKit'
+  s.homepage              = 'https://github.com/xieweilyg/BlocksKit'
   s.author                = { 'Zachary Waldowski' => 'zach@waldowski.me',
                               'Alexsander Akers'  => 'a2@pnd.mn' }
-  s.source                = { :git => 'https://github.com/LDXu/BlocksKit.git', :tag => "v#{s.version}" }
+  s.source                = { :git => 'https://github.com/xieweilyg/BlocksKit', :tag => "v#{s.version}" }
   s.requires_arc          = true
   s.osx.deployment_target = '10.8'
   s.ios.deployment_target = '6.0'
